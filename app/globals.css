@@ -18,10 +18,27 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
+
+@font-face {
+  font-family: Quella;
+  src: url("quella-owyda.otf");
+}
+
+.btn {
+  padding: 0.5rem;
+  color: black;
+}
+
+.btn.dark {
+  color: white;
+}
+
+.card {
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+}
+/* 
+.card.color {
+  border: 2px solid #2a3744;
+} */
